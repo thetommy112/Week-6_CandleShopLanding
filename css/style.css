@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url("../img/img1.jpg");
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 50% 95%, 0 100%, 0 50%, 0 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+.btn {
+    background-color: #b7875680;
+    border: 2px solid #b78756;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.intro-image__text .btn {
+    color: red;
+}
+
+.intro-text {
+    background-color: rgb(103, 103, 138);
+    height: 50vh;
+    margin-top: -3.5rem;
+}
+
+.intro-text__textbox {
+    position: relative;
+    top: 30%;
+}
+
+.heading-solid__beige {
+    color: beige;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.text-solid {
+    font-size: 2rem;
+}
+
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url("../img/img2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.packaging-image__text .btn {
+    color: green;
+}
+
+.packaging-text {
+    background-color: #b78756;
+    height: 50vh;
+}
+
+.packaging_text__textbox {
+    font-size: 2rem;
+}
+
+.heading-solid__green {
+    color: green;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url("../img/img3.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+.tutorials-image__text .btn {
+    color: brown;
+}
+
+.footer {
+    background-color: burlywood;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.contact ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.wrapper {
+    color: #fff;
+
+}
+
+.wrapper a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.wrapper a:hover {
+    color: rgb(163, 130, 130);
+    /* transform: scale(1.2);*/
+}
+
+.copyright {
+    color: #fff;
+}
